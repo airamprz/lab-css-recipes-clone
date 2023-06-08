@@ -22,3 +22,91 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+header {
+  background-image: url(../images/apple-pie.jpg);
+  height: 750px; /* Ajusta la altura según tus necesidades */
+  background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+  background-position: center; /* Ajusta la posición de la imagen de fondo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/*  CONTENT  */ 
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  margin: 50px 100px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
+}
+
+.content p {
+  width: 60%;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+/*  INGREDIENTS  */
+.ingredients {
+  margin-left: 200px; 
+  margin-right: 100px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
+  margin-bottom: 50px; 
+}
+
+#ingredient-list {
+  list-style: none;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+#ingredient-list li:before {
+  content: "-";
+  margin-right: 5px;
+  font-size: 25px;
+}
+
+li {
+  font-size: 25px;
+}
+
+.imgingredients {
+  display: block;
+  margin: 0 auto;
+}
+
+/*  DIRECTIONS  */
+.directions {
+  margin-left: 200px; 
+  margin-right: 100px;
+  padding-bottom: 30px;
+  margin-bottom: 50px; 
+}
+
+#directions-list {
+  list-style-type: decimal;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.directions p {
+  width: 60%;
+  text-align: justify;
+}
